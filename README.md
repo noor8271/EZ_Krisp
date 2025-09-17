@@ -1,6 +1,4 @@
-### Adjusted README for GitHub (General Public Audience)
-
-# Audio Enhancer
+# EZ_Krisp
 
 A lightweight, open-source audio enhancement tool designed to improve audio quality by reducing background noise. Perfect for calls, recordings, or streaming, this tool offers a user-friendly alternative to similar solutions like Krisp, with compatibility for virtual audio drivers such as VB Audio Virtual Cable.
 
