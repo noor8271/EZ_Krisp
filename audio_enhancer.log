@@ -1,0 +1,57 @@
+2025-09-15 18:23:32,758 [DEBUG] Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-09-15 18:23:32,758 [DEBUG] PyAudio version: 0.2.14
+2025-09-15 18:23:32,758 [DEBUG] NumPy version: 1.26.4
+2025-09-15 18:23:32,758 [DEBUG] PyTorch version: 2.8.0+cpu
+2025-09-15 18:23:32,758 [DEBUG] DeepFilterNet version: 0.5.6
+2025-09-15 18:23:32,759 [DEBUG] Subprocess.Popen mocked: False
+2025-09-15 18:23:32,759 [DEBUG] DEEPFILTERNET_COMMIT_HASH: dummy_hash
+2025-09-15 18:23:33,000 [INFO] 
+Loading DeepFilterNet model...
+2025-09-15 18:23:33,001 [DEBUG] DeepFilterNet model path: d:\krispalternative\DeepFilterNet3
+2025-09-15 18:23:33,001 [DEBUG] Checkpoint file path: d:\krispalternative\DeepFilterNet3\checkpoints\model_120.ckpt.best (exists: True)
+2025-09-15 18:23:33,002 [DEBUG] Config file path: d:\krispalternative\DeepFilterNet3\config.ini (exists: True)
+2025-09-15 18:23:33,002 [DEBUG] Temp folder: d:\krispalternative
+2025-09-15 18:23:33,002 [DEBUG] Temp folder contents: ['audiocancel_v1.py', 'audioenhancer_v2_local.py', 'audioforshipping.py', 'audioforshippingwithUI.py', 'audioforshippingwithUI_web.py', 'audioforshippingwith_UI_modes.py', 'audio_enhancer.log', 'build', 'DeepFilterNet2', 'DeepFilterNet3', 'dist', 'hashcalc.py', 'krispdanger15_withUI_Web.spec', 'testing.py']
+2025-09-15 18:23:33,003 [DEBUG] Model directory: d:\krispalternative\DeepFilterNet3 (exists: True)
+2025-09-15 18:23:33,003 [DEBUG] Model directory contents: ['checkpoints', 'config.ini', 'enhance.log']
+2025-09-15 18:23:33,004 [DEBUG] Checkpoints directory: d:\krispalternative\DeepFilterNet3\checkpoints (exists: True)
+2025-09-15 18:23:33,004 [DEBUG] Checkpoints directory contents: ['model_120.ckpt.best']
+2025-09-15 18:23:33,004 [DEBUG] Attempting to initialize DeepFilterNet model...
+2025-09-15 18:23:33,237 [DEBUG] DeepFilterNet model initialized successfully
+2025-09-15 18:23:33,237 [INFO] Model loaded successfully!
+2025-09-15 18:23:33,237 [DEBUG] Testing enhance function...
+2025-09-15 18:23:33,355 [DEBUG] Test successful! Input shape: torch.Size([1, 1024]), Output shape: torch.Size([1, 1024])
+2025-09-15 18:23:33,355 [DEBUG] Output numpy shape: (1024,)
+2025-09-15 18:23:33,553 [INFO] Refreshed devices: 4 inputs, 7 outputs
+2025-09-15 18:23:37,047 [INFO] Refreshed devices: 4 inputs, 7 outputs
+2025-09-15 18:23:58,741 [INFO] Sample rates match: 44100Hz
+2025-09-15 18:23:58,742 [INFO] Target latency: 128.0ms
+2025-09-15 18:23:58,742 [INFO] Calculated chunk size: 5696 samples (129.2ms latency)
+2025-09-15 18:23:58,742 [INFO] 
+============================================================
+2025-09-15 18:23:58,743 [INFO] 🔍 DIAGNOSTIC INFORMATION:
+2025-09-15 18:23:58,743 [INFO] ============================================================
+2025-09-15 18:23:58,743 [INFO] Input Device: Microphone Array (Realtek High 
+2025-09-15 18:23:58,743 [INFO]   Max Input Channels: 2
+2025-09-15 18:23:58,744 [INFO]   Default Sample Rate: 44100.0 Hz
+2025-09-15 18:23:58,744 [INFO]   Default Low Input Latency: 0.090s
+2025-09-15 18:23:58,744 [INFO] 
+Output Device: CABLE Input (VB-Audio Virtual C
+2025-09-15 18:23:58,745 [INFO]   Max Output Channels: 16
+2025-09-15 18:23:58,745 [INFO]   Default Sample Rate: 44100.0 Hz
+2025-09-15 18:23:58,745 [INFO]   Default Low Output Latency: 0.090s
+2025-09-15 18:23:58,746 [INFO] 
+🎛️ FINAL AUDIO CONFIGURATION:
+2025-09-15 18:23:58,746 [INFO]   Sample Rate: 44100 Hz
+2025-09-15 18:23:58,746 [INFO]   Chunk Size: 5696 samples (129.2ms latency)
+2025-09-15 18:23:58,746 [INFO]   Input Channels: 2 (device supports 2)
+2025-09-15 18:23:58,747 [INFO]   Output Channels: 2 (device supports 16)
+2025-09-15 18:23:58,747 [INFO]   Audio Format: Float32
+2025-09-15 18:23:58,748 [INFO] 
+📋 CHANNEL MAPPING STRATEGY:
+2025-09-15 18:23:58,748 [INFO]   Strategy: Stereo → Stereo (direct pass-through)
+2025-09-15 18:23:58,749 [INFO]   ℹ️ Input device has 16 channels but using only 2
+2025-09-15 18:23:58,749 [INFO] Applied changes and started new audio thread.
+2025-09-15 18:23:59,133 [INFO] Audio streams started with chunk 5696
+2025-09-15 18:24:26,501 [INFO] [AI] Frame 200 | Errors: 0
+2025-09-15 18:24:48,343 [INFO] Application quit.
