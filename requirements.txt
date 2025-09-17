@@ -1,0 +1,6 @@
+pyaudio
+numpy
+torch
+deepfilternet
+psutil
+pywebview
