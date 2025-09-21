@@ -8,3 +8,5 @@ with open(cwd+"\dist\krispdanger12_nogate.exe","rb") as f :
         shahash.update(chunk)
 hashed=shahash.hexdigest()
 print(hashed) 
+
+# jkla
